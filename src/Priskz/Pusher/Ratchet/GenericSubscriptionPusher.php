@@ -18,7 +18,7 @@ class GenericSubscriptionPusher extends AbstractSubscriptionPusher
         if($message['channel'] === 'global')
         {
             // If no one is subscribed to listen stop here.
-            if (! empty($this->subscribedChannels))
+            if(! empty($this->subscribedChannels))
             {
                 return;
             }
@@ -34,7 +34,7 @@ class GenericSubscriptionPusher extends AbstractSubscriptionPusher
         }
 
         // If non-global channel is nonexistent, do nothing else.
-        if (!array_key_exists($message['channel'], $this->subscribedChannels))
+        if(!array_key_exists($message['channel'], $this->subscribedChannels))
         {
             return;
         }
