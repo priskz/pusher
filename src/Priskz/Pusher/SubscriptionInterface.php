@@ -1,4 +1,6 @@
-<?php namespace Priskz\Pusher;
+<?php
+
+namespace Priskz\Pusher;
 
 use Ratchet\ConnectionInterface;
 use Ratchet\Wamp\WampServerInterface;

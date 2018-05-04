@@ -1,4 +1,6 @@
-<?php namespace Priskz\Pusher\Ratchet;
+<?php
+
+namespace Priskz\Pusher\Ratchet;
 
 use Priskz\Pusher\Ratchet\AbstractSubscriptionPusher;
 

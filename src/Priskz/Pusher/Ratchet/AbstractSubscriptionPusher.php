@@ -1,4 +1,6 @@
-<?php namespace Priskz\Pusher\Ratchet;
+<?php
+
+namespace Priskz\Pusher\Ratchet;
 
 use Ratchet\ConnectionInterface;
 use Priskz\Pusher\SubscriptionInterface;
