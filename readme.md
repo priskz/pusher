@@ -10,7 +10,7 @@ Add the following to your "require" schema:
 
 ```
 "require": {
-     "priskz/pusher": "~0.0.1"
+     "priskz/pusher": "~0.1.0"
 }
 ```
 
